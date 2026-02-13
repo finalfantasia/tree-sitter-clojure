@@ -8,6 +8,13 @@ Bits may be missing and/or inaccurate :)
 * Decide about inline use (e.g. add some \_bare\_\* constructs? stop using?)
   ([#41](https://github.com/sogaiu/tree-sitter-clojure/issues/41))
 
+### v0.0.14 - 2026-02-17
+
+* Features and Fixes
+  * Add GitHub Actions workflows
+  * Update version info in package.json and tree-sitter.json
+  * Generate parser.c and friends with tree-sitter v0.26.5 (ABI version 15)
+
 ### v0.0.13 - 2024-05-15
 
 * Features and Fixes
