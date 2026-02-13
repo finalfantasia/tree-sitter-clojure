@@ -1,6 +1,6 @@
 {
   "name": "tree-sitter-clojure",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Clojure grammar for tree-sitter",
   "repository": "https://github.com/finalfantasia/tree-sitter-clojure",
   "license": "CC0-1.0",
