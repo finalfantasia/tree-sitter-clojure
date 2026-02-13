@@ -1,0 +1,33 @@
+{
+  "grammars": [
+    {
+      "name": "clojure",
+      "camelcase": "Clojure",
+      "path": ".",
+      "scope": "source.clojure",
+      "injection-regex": "^(bb|clj|cljc|cljs|clojure|edn)$",
+      "file-types": [
+        "bb",
+        "clj",
+        "cljc",
+        "cljs",
+        "edn"
+      ],
+      "highlights": "queries/highlights.scm"
+    }
+  ],
+  "metadata": {
+    "version": "0.0.14",
+    "license": "CC0-1.0",
+    "description": "Clojure grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "sogaiu",
+        "email": "983021772@users.noreply.github.com"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/anomalyco/tree-sitter-clojure"
+    }
+  }
+}

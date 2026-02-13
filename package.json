@@ -1,7 +1,29 @@
 {
   "name": "tree-sitter-clojure",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Clojure grammar for tree-sitter",
+  "repository": "https://github.com/anomalyco/tree-sitter-clojure",
+  "license": "CC0-1.0",
+  "author": "sogaiu",
+  "keywords": [
+    "incremental",
+    "parsing",
+    "tree-sitter",
+    "clojure",
+    "edn"
+  ],
+  "files": [
+    "grammar.js",
+    "tree-sitter.json",
+    "queries/*",
+    "src/**",
+    "*.wasm"
+  ],
+  "scripts": {
+    "prestart": "tree-sitter build --wasm",
+    "start": "tree-sitter playground",
+    "test": "tree-sitter test"
+  },
   "tree-sitter": [
     {
       "scope": "source.clojure",
@@ -9,7 +31,8 @@
         "bb",
         "clj",
         "cljc",
-        "cljs"
+        "cljs",
+        "edn"
       ]
     }
   ]
