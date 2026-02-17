@@ -1,5 +1,4 @@
-;; Literals
-
+; Literals
 (num_lit) @number
 
 [
@@ -8,22 +7,20 @@
 ] @string
 
 [
- (bool_lit)
- (nil_lit)
+  (bool_lit)
+  (nil_lit)
 ] @constant.builtin
 
 (kwd_lit) @constant
 
-;; Comments
-
+; Comments
 (comment) @comment
 
-;; Treat quasiquotation as operators for the purpose of highlighting.
-
+; Treat quasiquotation as operators for the purpose of highlighting.
 [
- "'"
- "`"
- "~"
- "@"
- "~@"
+  "'"
+  "`"
+  "~"
+  "@"
+  "~@"
 ] @operator
